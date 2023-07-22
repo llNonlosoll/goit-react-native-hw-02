@@ -23,7 +23,7 @@ export default function App() {
         style={styles.backgroundImg}
       >
         <LoginScreen />
-        <RegistrationScreen />
+        {/* <RegistrationScreen /> */}
       </ImageBackground>
       <StatusBar style="auto" />
     </View>
