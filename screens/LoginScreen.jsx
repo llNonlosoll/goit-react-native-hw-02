@@ -1,5 +1,5 @@
 import { Text } from "react-native";
 
-export function LoginScreen() {
+export const LoginScreen = () => {
   return <Text>LoginScreen</Text>;
-}
+};

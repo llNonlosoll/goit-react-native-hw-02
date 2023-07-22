@@ -19,7 +19,7 @@ export default function App() {
     <View style={styles.container}>
       <ImageBackground
         source={require("./assets/images/background.jpg")}
-        resizeMode=""
+        resizeMode="cover"
         style={styles.backgroundImg}
       >
         <LoginScreen />
@@ -38,6 +38,6 @@ const styles = StyleSheet.create({
   backgroundImg: {
     flex: 1,
     justifyContent: "flex-end",
-    alignItems: "center",
+    // alignItems: "center",
   },
 });
